@@ -4,7 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        n = len(s)
         st = []
         for c in s:
             if c == '(' or c == '{' or c=='[':
