@@ -5,13 +5,11 @@ class Solution(object):
         :rtype: List[int]
         """
         n = len(nums)
-        setn = set(nums)
+        sets = set(nums)
         dis = []
         for i in range(n):
-            if i+1 not in setn:
+            if i+1 not in sets:
                 dis.append(i+1)
         
-        
         return dis
-                
-                
+        
